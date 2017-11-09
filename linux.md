@@ -1,4 +1,15 @@
-# Package Managers
+# Tar
+
+Compress file or dir:
+
+    tar -czvf name-of-archive.tar.gz /path/to/directory-or-file
+
+Extract to dir:
+
+    tar -xzvf archive.tar.gz -C /tmp
+    
+Package Managers
+================
 
 ## Debian
 
@@ -12,7 +23,8 @@ Update all packages:
 
     pacman -Syu
 
-# Misc.
+Misc.
+=====
 
 Archive book notes
 
