@@ -1,3 +1,14 @@
+# Set keyboard layout switching key combiantion
+
+  Current settings:
+
+    setxkbmap -layout us,ru -option grp:win_space_toggle
+
+  Take effect only after reboot:
+
+    localectl --no-convert set-x11-keymap us,ru grp:win_space_toggle
+
+
 # Tar
 
 Compress file or dir:
@@ -7,7 +18,8 @@ Compress file or dir:
 Extract to dir:
 
     tar -xzvf archive.tar.gz -C /tmp
-    
+
+
 Package Managers
 ================
 
