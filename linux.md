@@ -2,11 +2,11 @@
 
   Current settings:
 
-    setxkbmap -layout us,ru -option grp:win_space_toggle
+    setxkbmap -layout us,ru -model pc105 -option grp:win_space_toggle
 
   Take effect only after reboot:
 
-    localectl --no-convert set-x11-keymap us,ru grp:win_space_toggle
+    localectl --no-convert set-x11-keymap us,ru pc105 '' grp:win_space_toggle
 
 
 # Tar
